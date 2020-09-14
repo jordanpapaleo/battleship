@@ -9,7 +9,7 @@
     "dev": "nodemon ./src/index.js",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.{js}\"",
-    "test": "npm run test:lint && npm run test:type"
+    "test": "npm run test:lint"
   },
   "devDependencies": {
     "prettier": "1.19.1"
